@@ -25,7 +25,7 @@ pod 'NSVLocalizationKit'
 ```
 ## Usage
 
-NSVLocalizationKit allows you to localize directly from ```Storyboard``` or ```Xib```, it uses ```Localize-Swift``` and will automatically update all views, when language is changed.
+NSVLocalizationKit allows you to localize directly from ```Storyboard``` or ```Xib```, it uses ```Localize-Swift``` and will automatically update all views, when language is changed, without any line of code written in ```UIViewControllers```.
 
 **UIBarButtonItem**
 
