@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NSVLocalizationKit_Example' do
+  pod 'NSVLocalizationKit', :path => '../'
+
+  target 'NSVLocalizationKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
