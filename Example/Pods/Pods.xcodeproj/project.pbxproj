@@ -15,15 +15,16 @@
 		9DC31E285ADB6D8EB65B3E7CC3EE167D /* Pods-NSVLocalizationKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8582062864F2DDAE88D1AC0B2EB224FA /* Pods-NSVLocalizationKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DDE6915526F010203E6AD5E3D1151BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A95333B2FFF7E95388C3020798BF7EB5 /* Pods-NSVLocalizationKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C7430AD7F30A9B19FA245015812B15A /* Pods-NSVLocalizationKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2BAEB7C2334C39D003B01AE /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB722334C39D003B01AE /* UIBarButtonItem.swift */; };
-		B2BAEB7D2334C39D003B01AE /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB732334C39D003B01AE /* UINavigationItem.swift */; };
-		B2BAEB7E2334C39D003B01AE /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB742334C39D003B01AE /* UITextField.swift */; };
-		B2BAEB7F2334C39D003B01AE /* UITabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB752334C39D003B01AE /* UITabBarItem.swift */; };
-		B2BAEB802334C39D003B01AE /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB762334C39D003B01AE /* UIButton.swift */; };
-		B2BAEB812334C39D003B01AE /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB772334C39D003B01AE /* UILabel.swift */; };
-		B2BAEB822334C39D003B01AE /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB782334C39D003B01AE /* UISegmentedControl.swift */; };
-		B2BAEB832334C39D003B01AE /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB792334C39D003B01AE /* UITextView.swift */; };
-		B2BAEB842334C39D003B01AE /* ObjectAssiciation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB7B2334C39D003B01AE /* ObjectAssiciation.swift */; };
+		B2BAEBA62334C9B0003B01AE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B2BAEB9A2334C9B0003B01AE /* .gitkeep */; };
+		B2BAEBA72334C9B0003B01AE /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB9C2334C9B0003B01AE /* UIBarButtonItem.swift */; };
+		B2BAEBA82334C9B0003B01AE /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB9D2334C9B0003B01AE /* UINavigationItem.swift */; };
+		B2BAEBA92334C9B0003B01AE /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB9E2334C9B0003B01AE /* UITextField.swift */; };
+		B2BAEBAA2334C9B0003B01AE /* UITabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEB9F2334C9B0003B01AE /* UITabBarItem.swift */; };
+		B2BAEBAB2334C9B0003B01AE /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEBA02334C9B0003B01AE /* UIButton.swift */; };
+		B2BAEBAC2334C9B0003B01AE /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEBA12334C9B0003B01AE /* UILabel.swift */; };
+		B2BAEBAD2334C9B0003B01AE /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEBA22334C9B0003B01AE /* UISegmentedControl.swift */; };
+		B2BAEBAE2334C9B0003B01AE /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEBA32334C9B0003B01AE /* UITextView.swift */; };
+		B2BAEBAF2334C9B0003B01AE /* ObjectAssiciation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAEBA52334C9B0003B01AE /* ObjectAssiciation.swift */; };
 		F91A6A76C7006A35C559A648F545A101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,15 +67,16 @@
 		9976659140FD23C014C201A69BC83CAE /* Pods-NSVLocalizationKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSVLocalizationKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A50CE98F463CEF4A3D795A176C3716F0 /* Pods-NSVLocalizationKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSVLocalizationKit_Example-dummy.m"; sourceTree = "<group>"; };
-		B2BAEB722334C39D003B01AE /* UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
-		B2BAEB732334C39D003B01AE /* UINavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationItem.swift; sourceTree = "<group>"; };
-		B2BAEB742334C39D003B01AE /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
-		B2BAEB752334C39D003B01AE /* UITabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarItem.swift; sourceTree = "<group>"; };
-		B2BAEB762334C39D003B01AE /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
-		B2BAEB772334C39D003B01AE /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
-		B2BAEB782334C39D003B01AE /* UISegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISegmentedControl.swift; sourceTree = "<group>"; };
-		B2BAEB792334C39D003B01AE /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
-		B2BAEB7B2334C39D003B01AE /* ObjectAssiciation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectAssiciation.swift; sourceTree = "<group>"; };
+		B2BAEB9A2334C9B0003B01AE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B2BAEB9C2334C9B0003B01AE /* UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
+		B2BAEB9D2334C9B0003B01AE /* UINavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationItem.swift; sourceTree = "<group>"; };
+		B2BAEB9E2334C9B0003B01AE /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		B2BAEB9F2334C9B0003B01AE /* UITabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarItem.swift; sourceTree = "<group>"; };
+		B2BAEBA02334C9B0003B01AE /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		B2BAEBA12334C9B0003B01AE /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		B2BAEBA22334C9B0003B01AE /* UISegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISegmentedControl.swift; sourceTree = "<group>"; };
+		B2BAEBA32334C9B0003B01AE /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		B2BAEBA52334C9B0003B01AE /* ObjectAssiciation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectAssiciation.swift; sourceTree = "<group>"; };
 		B5D4DE5E326584366AF29124C670CA16 /* NSVLocalizationKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSVLocalizationKit-Info.plist"; sourceTree = "<group>"; };
 		B63EDF4A5FF4DA76CFB8C830C2C33B11 /* NSVLocalizationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSVLocalizationKit-dummy.m"; sourceTree = "<group>"; };
 		B8E98DDEB2560C431E32E7D6CFE4BA20 /* NSVLocalizationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSVLocalizationKit.modulemap; sourceTree = "<group>"; };
@@ -174,36 +176,38 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B2BAEB712334C39D003B01AE /* Extensions */ = {
+		B2BAEB992334C9B0003B01AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B2BAEB722334C39D003B01AE /* UIBarButtonItem.swift */,
-				B2BAEB732334C39D003B01AE /* UINavigationItem.swift */,
-				B2BAEB742334C39D003B01AE /* UITextField.swift */,
-				B2BAEB752334C39D003B01AE /* UITabBarItem.swift */,
-				B2BAEB762334C39D003B01AE /* UIButton.swift */,
-				B2BAEB772334C39D003B01AE /* UILabel.swift */,
-				B2BAEB782334C39D003B01AE /* UISegmentedControl.swift */,
-				B2BAEB792334C39D003B01AE /* UITextView.swift */,
+				B2BAEB9A2334C9B0003B01AE /* .gitkeep */,
+				B2BAEB9B2334C9B0003B01AE /* Extensions */,
+				B2BAEBA42334C9B0003B01AE /* Helpers */,
+			);
+			name = Classes;
+			path = NSVLocalizationKit/Classes;
+			sourceTree = "<group>";
+		};
+		B2BAEB9B2334C9B0003B01AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAEB9C2334C9B0003B01AE /* UIBarButtonItem.swift */,
+				B2BAEB9D2334C9B0003B01AE /* UINavigationItem.swift */,
+				B2BAEB9E2334C9B0003B01AE /* UITextField.swift */,
+				B2BAEB9F2334C9B0003B01AE /* UITabBarItem.swift */,
+				B2BAEBA02334C9B0003B01AE /* UIButton.swift */,
+				B2BAEBA12334C9B0003B01AE /* UILabel.swift */,
+				B2BAEBA22334C9B0003B01AE /* UISegmentedControl.swift */,
+				B2BAEBA32334C9B0003B01AE /* UITextView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		B2BAEB7A2334C39D003B01AE /* Helpers */ = {
+		B2BAEBA42334C9B0003B01AE /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				B2BAEB7B2334C39D003B01AE /* ObjectAssiciation.swift */,
+				B2BAEBA52334C9B0003B01AE /* ObjectAssiciation.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		B2BAEB982334C762003B01AE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B2BAEB712334C39D003B01AE /* Extensions */,
-				B2BAEB7A2334C39D003B01AE /* Helpers */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		B860EDC1EE32D80FAF6B1FE9EA85D6DC /* Targets Support Files */ = {
@@ -245,7 +249,7 @@
 		E202F56752EEDCD1234E5CDC63A934BB /* NSVLocalizationKit */ = {
 			isa = PBXGroup;
 			children = (
-				B2BAEB982334C762003B01AE /* Classes */,
+				B2BAEB992334C9B0003B01AE /* Classes */,
 				0270D4B3C4CB50EE2D8D10F38F1A21CF /* Pod */,
 				83EC58758F5DA158CC69ADB08830809D /* Support Files */,
 			);
@@ -401,6 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2BAEBA62334C9B0003B01AE /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,16 +439,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2BAEB7D2334C39D003B01AE /* UINavigationItem.swift in Sources */,
-				B2BAEB7C2334C39D003B01AE /* UIBarButtonItem.swift in Sources */,
-				B2BAEB842334C39D003B01AE /* ObjectAssiciation.swift in Sources */,
-				B2BAEB812334C39D003B01AE /* UILabel.swift in Sources */,
+				B2BAEBA82334C9B0003B01AE /* UINavigationItem.swift in Sources */,
+				B2BAEBA72334C9B0003B01AE /* UIBarButtonItem.swift in Sources */,
+				B2BAEBAF2334C9B0003B01AE /* ObjectAssiciation.swift in Sources */,
+				B2BAEBAC2334C9B0003B01AE /* UILabel.swift in Sources */,
 				8D657EEE0B29D5EF44DD68389AA21DD9 /* NSVLocalizationKit-dummy.m in Sources */,
-				B2BAEB832334C39D003B01AE /* UITextView.swift in Sources */,
-				B2BAEB7F2334C39D003B01AE /* UITabBarItem.swift in Sources */,
-				B2BAEB7E2334C39D003B01AE /* UITextField.swift in Sources */,
-				B2BAEB822334C39D003B01AE /* UISegmentedControl.swift in Sources */,
-				B2BAEB802334C39D003B01AE /* UIButton.swift in Sources */,
+				B2BAEBAE2334C9B0003B01AE /* UITextView.swift in Sources */,
+				B2BAEBAA2334C9B0003B01AE /* UITabBarItem.swift in Sources */,
+				B2BAEBA92334C9B0003B01AE /* UITextField.swift in Sources */,
+				B2BAEBAD2334C9B0003B01AE /* UISegmentedControl.swift in Sources */,
+				B2BAEBAB2334C9B0003B01AE /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
