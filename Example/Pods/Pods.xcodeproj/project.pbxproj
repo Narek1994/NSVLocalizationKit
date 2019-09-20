@@ -197,6 +197,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		B2BAEB982334C762003B01AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAEB712334C39D003B01AE /* Extensions */,
+				B2BAEB7A2334C39D003B01AE /* Helpers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		B860EDC1EE32D80FAF6B1FE9EA85D6DC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,8 +245,7 @@
 		E202F56752EEDCD1234E5CDC63A934BB /* NSVLocalizationKit */ = {
 			isa = PBXGroup;
 			children = (
-				B2BAEB712334C39D003B01AE /* Extensions */,
-				B2BAEB7A2334C39D003B01AE /* Helpers */,
+				B2BAEB982334C762003B01AE /* Classes */,
 				0270D4B3C4CB50EE2D8D10F38F1A21CF /* Pod */,
 				83EC58758F5DA158CC69ADB08830809D /* Support Files */,
 			);
