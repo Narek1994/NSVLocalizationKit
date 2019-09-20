@@ -26,36 +26,36 @@ pod 'NSVLocalizationKit'
 
 NSVLocalizationKit allows you to localize directly from ```Storyboard``` or ```Xib```, it uses ```Localize-Swift``` and will automatically update all views, when language is changed.
 
-*UIBarButtonItem*
+**UIBarButtonItem**
 
 Set ```localized Title```.
 
-*UIButton*
+**UIButton**
 
 Set ```localized Title```.
 
-*UILabel*
+**UILabel**
 
 Set ```localized Text```.
 
-*UINavigationItem*
+**UINavigationItem**
 
 Set ```localized Title```.
 
-*UISegmentedControl*
+**UISegmentedControl**
 
 Set ```localized Titles```. Because we can't use arrays as a ```@IBInspectable```, you will have to give string seperated with comma, for each segment. Check the example project. 
 
-*UITabBarItem*
+**UITabBarItem**
 
 Set ```localized Title```.
 
 
-*UITextField*
+**UITextField**
 
 Set ```localized Text``` for text and ```localized Placeholder``` for placeholder.
 
-*UITextView*
+**UITextView**
 
 Set ```localized Text```.
 
