@@ -1,0 +1,13 @@
+/* 
+  Localization.strings
+  Localization
+
+  Created by Narek Simonyan on 9/25/18.
+  Copyright © 2018 Narek Simonyan. All rights reserved.
+*/
+
+"hello_world" = "Привет, мир";
+"hello_world1" = "Привет, мир 1";
+"hello_world2" = "Привет, мир 2";
+"change" = "Поменять";
+"reset" = "Сброс";

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CaD-kA-mGL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5z3-tB-KGd">
+            <objects>
+                <viewController id="OxC-XG-Zs3" customClass="ViewController" customModule="Localization" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9op-hK-IIq"/>
+                        <viewControllerLayoutGuide type="bottom" id="4CC-Iq-o4N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yhP-fa-Scm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFf-Cp-jr7">
+                                <rect key="frame" x="16" y="64" width="343" height="54"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="45"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="hello_world"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMC-uy-5pM">
+                                <rect key="frame" x="138" y="326" width="99" height="34"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zMC-uy-5pM" secondAttribute="height" multiplier="29:10" id="aMK-Km-pgi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="reset"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="doResetLanguage:" destination="OxC-XG-Zs3" eventType="touchUpInside" id="fRw-hd-ntI"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rj8-tx-tjc">
+                                <rect key="frame" x="16" y="128" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedPlaceholder" value="hello_world"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="P8a-a5-yM8">
+                                <rect key="frame" x="16" y="188" width="343" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cih-7b-vf7"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="hello_world"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2a-53-06H">
+                                <rect key="frame" x="138" y="284" width="99" height="34"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="d2a-53-06H" secondAttribute="height" multiplier="29:10" id="GXx-w2-VEu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Change">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="change"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="doChangeLanguage:" destination="OxC-XG-Zs3" eventType="touchUpInside" id="bA2-Ob-6eK"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="h3m-SY-b9d">
+                                <rect key="frame" x="127" y="249" width="121" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedTitles" value="hello_world1,hello_world2"/>
+                                </userDefinedRuntimeAttributes>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d2a-53-06H" firstAttribute="top" secondItem="P8a-a5-yM8" secondAttribute="bottom" constant="46" id="1do-9P-oe9"/>
+                            <constraint firstItem="rj8-tx-tjc" firstAttribute="top" secondItem="zFf-Cp-jr7" secondAttribute="bottom" constant="10" id="6Hw-9g-dWi"/>
+                            <constraint firstItem="rj8-tx-tjc" firstAttribute="width" secondItem="zFf-Cp-jr7" secondAttribute="width" id="AbW-vG-Vny"/>
+                            <constraint firstItem="zFf-Cp-jr7" firstAttribute="leading" secondItem="yhP-fa-Scm" secondAttribute="leadingMargin" id="Ic6-zS-3CU"/>
+                            <constraint firstItem="zMC-uy-5pM" firstAttribute="top" secondItem="d2a-53-06H" secondAttribute="bottom" constant="8" id="Rcp-bG-409"/>
+                            <constraint firstItem="h3m-SY-b9d" firstAttribute="top" secondItem="P8a-a5-yM8" secondAttribute="bottom" constant="11" id="SbM-aM-emS"/>
+                            <constraint firstItem="zFf-Cp-jr7" firstAttribute="trailing" secondItem="yhP-fa-Scm" secondAttribute="trailingMargin" id="Stv-wk-cHY"/>
+                            <constraint firstItem="P8a-a5-yM8" firstAttribute="leading" secondItem="rj8-tx-tjc" secondAttribute="leading" id="Vhp-ZQ-BjT"/>
+                            <constraint firstItem="zMC-uy-5pM" firstAttribute="top" secondItem="d2a-53-06H" secondAttribute="bottom" constant="8" id="X8Q-Yj-0yK"/>
+                            <constraint firstAttribute="centerX" secondItem="d2a-53-06H" secondAttribute="centerX" id="amQ-Ym-Lxp"/>
+                            <constraint firstAttribute="centerX" secondItem="zMC-uy-5pM" secondAttribute="centerX" id="bJY-cf-Zvw"/>
+                            <constraint firstItem="P8a-a5-yM8" firstAttribute="trailing" secondItem="rj8-tx-tjc" secondAttribute="trailing" id="iDg-td-HYK"/>
+                            <constraint firstItem="P8a-a5-yM8" firstAttribute="top" secondItem="rj8-tx-tjc" secondAttribute="bottom" constant="30" id="mVe-au-o3j"/>
+                            <constraint firstItem="h3m-SY-b9d" firstAttribute="centerX" secondItem="P8a-a5-yM8" secondAttribute="centerX" id="qVX-3L-OaS"/>
+                            <constraint firstItem="zFf-Cp-jr7" firstAttribute="top" secondItem="9op-hK-IIq" secondAttribute="bottom" id="vUa-kg-sGv"/>
+                            <constraint firstItem="rj8-tx-tjc" firstAttribute="centerX" secondItem="zFf-Cp-jr7" secondAttribute="centerX" id="znu-KL-RPp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SkH-NH-3ji"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QmV-A5-u7M">
+                        <barButtonItem key="rightBarButtonItem" id="CV7-t3-dqY">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="hello_world"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="hello_world"/>
+                            </userDefinedRuntimeAttributes>
+                        </barButtonItem>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="hello_world"/>
+                        </userDefinedRuntimeAttributes>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="changeButton" destination="d2a-53-06H" id="A4i-B1-N3X"/>
+                        <outlet property="resetButton" destination="zMC-uy-5pM" id="xGz-GA-iWu"/>
+                        <outlet property="textLabel" destination="zFf-Cp-jr7" id="CV1-hr-GXC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0vp-I4-VND" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1404" y="-41.829085457271368"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="nGC-Tm-mX9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CaD-kA-mGL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="8eV-au-log">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="tab_bar_title2"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dHu-Ec-PpD">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OxC-XG-Zs3" kind="relationship" relationship="rootViewController" id="2Qs-yq-zEm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oaw-Xh-0gK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="464.80000000000001" y="-41.829085457271368"/>
+        </scene>
+    </scenes>
+</document>

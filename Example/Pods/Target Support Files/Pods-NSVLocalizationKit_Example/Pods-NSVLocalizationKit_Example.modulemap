@@ -1,0 +1,6 @@
+framework module Pods_NSVLocalizationKit_Example {
+  umbrella header "Pods-NSVLocalizationKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
