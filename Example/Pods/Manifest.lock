@@ -1,15 +1,22 @@
 PODS:
-  - NSVLocalizationKit (0.1.0)
+  - Localize-Swift (3.0.0)
+  - NSVLocalizationKit (0.1.0):
+    - Localize-Swift
 
 DEPENDENCIES:
   - NSVLocalizationKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Localize-Swift
 
 EXTERNAL SOURCES:
   NSVLocalizationKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NSVLocalizationKit: 7843bf3716bd0b3ec7d6e4ff856d62da32e8749f
+  Localize-Swift: 1363ec008c6972dced79a80ac72c71d14e98db44
+  NSVLocalizationKit: a193d28edc263d7b1c98ce2f9747fe3761898c69
 
 PODFILE CHECKSUM: c98e8821f67b630b5660dde6c60046c15e09e7dd
 
