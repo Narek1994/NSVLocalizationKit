@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NSVLocalizationKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Localize any text directly from storyboard or xib'
   s.swift_version    = '5.0'
 # This description is used to generate tags and improve search results.
