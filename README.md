@@ -26,7 +26,7 @@ pod 'NSVLocalizationKit'
 
 ## About
 
-So basically you will set localizable keys from storyboard and it will localize it, the main idea is when you have language change in app, you will have to subscribe to language change notification to update your UI. Using this library will automatically update any text set from storyboard, so you will not have to localize it from code, and subscribe to notifications. It is helpful when you have in app language change.
+So basically you will set localizable keys from storyboard and it will localize it, the main idea is when you have language change in app, you will have to subscribe to language change notification to update your UI. This library will automatically update any text set from storyboard, so you will not have to localize it from code, and subscribe to notifications. It is helpful when you have in app language change.
 
 ## Usage
 
