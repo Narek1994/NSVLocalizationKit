@@ -9,6 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![](localization.gif)
 
 ## Requirements
 
@@ -22,9 +23,14 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'NSVLocalizationKit'
 ```
+
+## About
+
+So basically you will set localizable keys from storyboard and it will localize it, the main idea is when you have language change in app, you will have to subscribe to language change notification to update your UI. This library will automatically update any text set from storyboard, so you will not have to localize it from code, and subscribe to notifications. It is helpful when you have in app language change.
+
 ## Usage
 
-NSVLocalizationKit allows you to localize directly from ```Storyboard``` or ```Xib```, it uses ```Localize-Swift``` and will automatically update all views, when language is changed.
+NSVLocalizationKit allows you to localize directly from ```Storyboard``` or ```Xib```, it uses ```Localize-Swift``` and will automatically update all views, when language is changed, without any line of code written in ```UIViewControllers```.
 
 **UIBarButtonItem**
 
