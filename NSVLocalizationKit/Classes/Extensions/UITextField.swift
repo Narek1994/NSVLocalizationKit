@@ -54,8 +54,12 @@ public extension UITextField {
     }
     
     @objc private func languageChanged() {
-        placeholder = localizedPlaceholderKey?.localized()
-        text = localizedKey?.localized()
+        if localizedPlaceholderKey != nil {
+            placeholder = localizedPlaceholderKey?.localized()
+        }
+        if localizedKey != nil {
+            text = localizedKey?.localized()
+        }
     }
 }
 
