@@ -1,13 +1,18 @@
 PODS:
-  - Localize-Swift (3.0.0)
-  - NSVLocalizationKit (0.1.0):
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - NSVLocalizationKit (0.1.2):
     - Localize-Swift
 
 DEPENDENCIES:
   - NSVLocalizationKit (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Localize-Swift
 
 EXTERNAL SOURCES:
@@ -15,9 +20,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Localize-Swift: 1363ec008c6972dced79a80ac72c71d14e98db44
-  NSVLocalizationKit: a193d28edc263d7b1c98ce2f9747fe3761898c69
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  NSVLocalizationKit: c5d16ec4c5790005d9a3d7dcdc98452bc09ad9f6
 
 PODFILE CHECKSUM: c98e8821f67b630b5660dde6c60046c15e09e7dd
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.3

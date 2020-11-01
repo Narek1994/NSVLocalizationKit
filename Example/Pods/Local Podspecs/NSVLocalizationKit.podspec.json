@@ -1,6 +1,6 @@
 {
   "name": "NSVLocalizationKit",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "Localize any text directly from storyboard or xib",
   "swift_versions": "5.0",
   "description": "Localize any text directly from storyboard or xib, changing language will automatically update any text setted from storyboard or with the code.",
@@ -14,10 +14,10 @@
   },
   "source": {
     "git": "https://github.com/Narek1994/NSVLocalizationKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
   "source_files": "NSVLocalizationKit/Classes/**/*",
   "frameworks": "UIKit",
